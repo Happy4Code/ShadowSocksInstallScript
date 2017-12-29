@@ -1,18 +1,18 @@
-#This script is for easy-install shadowsocks on your Centos Machine
+# This script is for easy-install shadowsocks on your Centos Machine
 
 For this Script you just need to download this script and run this script you will successfully install your shadowsocks and run the software on your **Centos Machine**
 
 The script also provide additional features like stop the shadowsocks and uninstall shadowsocks
 
-##Tutorial
+## Tutorial
 
-###Install 
+### Install 
 > wget --no-check-certificate -O ss-script.sh 
 > chmod +x ss-script.sh
 > ./ss-script 2 > &1 | tee shadowsocks.log
-###Stop
+### Stop
 > ./ss-script stop
-###Unistall
+### Unistall
 > ./ss-script unistall
 
 **Hope you can enjoy this script**!

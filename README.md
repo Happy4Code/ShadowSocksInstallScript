@@ -1,4 +1,4 @@
-# This script is for easy-install shadowsocks on your CentOS Machine
+# This script is for easy-install shadowsocks-server on your CentOS Machine
 
 For this Script you just need to download this script and run this script you will successfully install your shadowsocks and run the software on your **Centos Machine**
 

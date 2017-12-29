@@ -8,6 +8,11 @@ export PATH
 #Clear the screen
 clear;
 
+#Define some color to has a nice prompt
+red='\033[31m'
+plain='\033[0m'
+blue='\033[36m'
+green='\033[42m'
 echo -e "${green}###################################################################${plain}"
 echo -e "${green}#                         Happy Coding                            #${plain}"
 echo -e "${green}# MyGithub: https//github.com/Happy4Code/ShadowSocksInstallScript #${plain}"
@@ -34,11 +39,6 @@ chacha20-ietf-poly1305
 chacha20-ietf
 chacha20
 )
-#Define some color to has a nice prompt
-red='\033[31m'
-plain='\033[0m'
-blue='\033[36m'
-green='\033[42m'
 
 #First to check the user ID
 if [ $EUID -ne 0 ];then

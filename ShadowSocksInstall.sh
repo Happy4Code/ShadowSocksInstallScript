@@ -8,11 +8,11 @@ export PATH
 #Clear the screen
 clear;
 
-echo "${green}###################################################################${plain}"
-echo "${green}#                         Happy Coding                            #${plain}"
-echo "${green}# MyGithub: https//github.com/Happy4Code/ShadowSocksInstallScript #${plain}"
-echo "${green}# Author:   NoOne                                                 #${plain}"
-echo "${green}###################################################################${plain}"
+echo -e "${green}###################################################################${plain}"
+echo -e "${green}#                         Happy Coding                            #${plain}"
+echo -e "${green}# MyGithub: https//github.com/Happy4Code/ShadowSocksInstallScript #${plain}"
+echo -e "${green}# Author:   NoOne                                                 #${plain}"
+echo -e "${green}###################################################################${plain}"
 
 #Get current folder
 curFolder=`pwd`

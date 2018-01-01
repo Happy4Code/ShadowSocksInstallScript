@@ -16,6 +16,6 @@ The script also provide additional features like stop the shadowsocks and uninst
 #### ./ss-script.sh stop
 ### Uninstall
 
-#### ./ss-script.sh unistall
+#### ./ss-script.sh uninstall
 
 **Hope you can enjoy this script**!

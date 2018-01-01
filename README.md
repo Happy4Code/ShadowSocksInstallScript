@@ -10,12 +10,12 @@ The script also provide additional features like stop the shadowsocks and uninst
 
 #### 1  wget --no-check-certificate -O ss-script.sh https://raw.githubusercontent.com/Happy4Code/ShadowSocksInstallScript/master/ShadowSocksInstall.sh  
 #### 2 chmod +x ss-script.sh
-#### 3 ./ss-script 2 > &1 | tee shadowsocks.log
+#### 3 ./ss-script.sh 2 > &1 | tee shadowsocks.log
 ### Stop
 
-#### ./ss-script stop
-### Unistall
+#### ./ss-script.sh stop
+### Uninstall
 
-#### ./ss-script unistall
+#### ./ss-script.sh unistall
 
 **Hope you can enjoy this script**!

@@ -101,11 +101,17 @@ pre_install(){
   #Install software slove dependencies problem
   yum install -y python python-devel python-setuptools openssl openssl-devel curl wget unzip gcc automake autoconf make lib tool
   cd ${curFolder}
-  pip -V &> /dev/null
+  pip -V 
   #Check if you install pip
   if [ $? -ne 0 ];then
-    curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
-    python get-pip.py 
+    echo -e "[${blue}INFO${plain}]pip is not existed, prepare to install pip"
+    wget --no-check-certificate -O get-pip.py https://bootstrap.pypa.io/get-pip.py
+    if [ -f get-pip.py ];then
+      python get-pip.py
+    else
+      echo -e "[${red}ERROR${plain}]The pip auto-install is failed, please install it by your own"
+      exit -1
+    fi
   fi
   clear 
   #Set some config info for your shadowsocks

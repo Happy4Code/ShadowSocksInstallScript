@@ -18,13 +18,9 @@ chmod +x ss-script.sh
 ./ss-script.sh 2>&1 | tee ss-script.log
 
 ### 停止ss
-
-#### 第一步  
 ./ss-script.sh stop
 
 ### 卸载
-
-#### 第一步
 ./ss-script.sh uninstall
 
 **Hope you can enjoy this script**!

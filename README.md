@@ -1,21 +1,30 @@
-# This script is for easy-install shadowsocks-server on your CentOS Machine
+# 这是一键式安装ss的脚本
 
-For this Script you just need to download this script and run this script you will successfully install your shadowsocks and run the software on your **Centos Machine**
+## 你只需要下载该脚本，并运行它，在运行期间脚本会要求你输入一系列配置信息（当然可以直接回车采用默认值），目前该脚本只支持linux的centos版本。
 
-The script also provide additional features like stop the shadowsocks and uninstall shadowsocks
+## 该脚本除了提供安装ss，也提供了暂停、运行和卸载的相关服务，只需要搭配相应的参数即可，用户只需要根据需求粘贴每一部分的命令就可以了
 
 ## Tutorial
 
-### Install
+### 安装ss
 
-#### 1  wget --no-check-certificate -O ss-script.sh https://raw.githubusercontent.com/Happy4Code/ShadowSocksInstallScript/master/ShadowSocksInstall.sh  
-#### 2 chmod +x ss-script.sh
-#### 3 ./ss-script.sh 2>&1 | tee ss-script.log
-### Stop
+#### 第一步：  
+wget --no-check-certificate -O ss-script.sh https://raw.githubusercontent.com/Happy4Code/ShadowSocksInstallScript/master/ShadowSocksInstall.sh  
 
-#### ./ss-script.sh stop
-### Uninstall
+#### 第二步：
+chmod +x ss-script.sh
 
-#### ./ss-script.sh uninstall
+#### 第三步：
+./ss-script.sh 2>&1 | tee ss-script.log
+
+### 停止ss
+
+#### 第一步  
+./ss-script.sh stop
+
+### 卸载
+
+#### 第一步
+./ss-script.sh uninstall
 
 **Hope you can enjoy this script**!
